@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/repository-banner.png" alt="EndoX — Corpus Glandula" width="100%">
+  <img src="assets/repo-banner.png" alt="EndoX — Corpus Glandula" width="100%">
 </p>
 
 # 🧬 EndoX — Corpus Glandula
