@@ -23,7 +23,7 @@ The simulator features dedicated interactive modules for:
 
 ### 🤝 Credits
 * **Claude Opus 4.8**: Generation of HTML Code
-* **Supabase Server**: Hosting for imagery
+* **Supabase Server**: Hosting for images
 
 ---
 
