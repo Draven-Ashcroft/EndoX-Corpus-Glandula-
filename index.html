@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Corpus Glandula — Class 10 (CBSE)</title>
@@ -189,21 +188,21 @@
 <div id="tabviews">
 <div id="view-home" class="active"><div id="app">
   <aside id="panel">
-    <div class="titleRow"><div class="titleMark"><svg viewBox="0 0 20 20" fill="none" stroke="#eafcff" stroke-width="1.5" stroke-linecap="round"><line x1="10" y1="6.2" x2="5" y2="14.2"/><line x1="10" y1="6.2" x2="15" y2="14.2"/><line x1="5" y1="14.2" x2="15" y2="14.2"/><circle cx="10" cy="6.2" r="2.3" fill="#eafcff" stroke="none"/><circle cx="5" cy="14.2" r="1.7" fill="#eafcff" stroke="none"/><circle cx="15" cy="14.2" r="1.7" fill="#eafcff" stroke="none"/></svg></div><h1>Corpus Glandula</h1></div>
-    <div class="sub">Class 10 &middot; CBSE. Rotate the body, then tap a gland to see its hormone and what it does.</div>
+    <div class="titleRow"><div class="titleMark"><svg viewBox="0 0 20 20" fill="none" stroke="#eafcff" stroke-width="1.5" stroke-linecap="round"><line x1="10" y1="6.2" x2="5" y2="14.2"></line><line x1="10" y1="6.2" x2="15" y2="14.2"></line><line x1="5" y1="14.2" x2="15" y2="14.2"></line><circle cx="10" cy="6.2" r="2.3" fill="#eafcff" stroke="none"></circle><circle cx="5" cy="14.2" r="1.7" fill="#eafcff" stroke="none"></circle><circle cx="15" cy="14.2" r="1.7" fill="#eafcff" stroke="none"></circle></svg></div><h1>Corpus Glandula</h1></div>
+    <div class="sub">Class 10 · CBSE. Rotate the body, then tap a gland to see its hormone and what it does.</div>
     <div class="block">
       <div class="lblRow">
         <div class="lbl">Biological Sex</div>
         <button class="saveBtn" id="exportBtn" title="Export HTML with your saved images" aria-label="Export HTML with your saved images">
-          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h9l4 4v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M7 3v5h6V3"/><rect x="6.3" y="11.7" width="7.4" height="4.6"/></svg>
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h9l4 4v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"></path><path d="M7 3v5h6V3"></path><rect x="6.3" y="11.7" width="7.4" height="4.6"></rect></svg>
         </button>
       </div>
       <div class="sexRow" id="sexSeg">
         <button data-sex="male" class="sexbtn on" aria-label="Male" title="Male">
-          <svg viewBox="0 0 20 20"><circle cx="8" cy="12" r="6" fill="none" stroke="currentColor" stroke-width="1.7"/><line x1="12.4" y1="7.6" x2="17" y2="3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M12.3 3 H17 V7.7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          <svg viewBox="0 0 20 20"><circle cx="8" cy="12" r="6" fill="none" stroke="currentColor" stroke-width="1.7"></circle><line x1="12.4" y1="7.6" x2="17" y2="3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></line><path d="M12.3 3 H17 V7.7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"></path></svg>
         </button>
         <button data-sex="female" class="sexbtn" aria-label="Female" title="Female">
-          <svg viewBox="0 0 20 20"><circle cx="10" cy="7.5" r="6" fill="none" stroke="currentColor" stroke-width="1.7"/><line x1="10" y1="13.5" x2="10" y2="18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><line x1="6.3" y1="16" x2="13.7" y2="16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          <svg viewBox="0 0 20 20"><circle cx="10" cy="7.5" r="6" fill="none" stroke="currentColor" stroke-width="1.7"></circle><line x1="10" y1="13.5" x2="10" y2="18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></line><line x1="6.3" y1="16" x2="13.7" y2="16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></line></svg>
         </button>
       </div>
     </div>
@@ -215,37 +214,37 @@
     <canvas id="view"></canvas>
     <div id="tip"></div>
     <div id="orgCard"></div>
-    <div id="hint">Drag to rotate &middot; scroll to zoom &middot; click a gland</div>
+    <div id="hint">Drag to rotate · scroll to zoom · click a gland</div>
     <div id="viewRail">
       <button class="railbtn active" id="spinBtn" title="Auto-rotate" aria-label="Auto-rotate">
         <svg class="bicon" viewBox="0 0 20 20">
           <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M10 3 A7 7 0 0 1 17 10"/><path d="M17 10 l-2.3 -0.4 M17 10 l-0.9 -2.1"/>
+            <path d="M10 3 A7 7 0 0 1 17 10"></path><path d="M17 10 l-2.3 -0.4 M17 10 l-0.9 -2.1"></path>
           </g>
           <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(90 10 10)">
-            <path d="M10 3 A7 7 0 0 1 17 10"/><path d="M17 10 l-2.3 -0.4 M17 10 l-0.9 -2.1"/>
+            <path d="M10 3 A7 7 0 0 1 17 10"></path><path d="M17 10 l-2.3 -0.4 M17 10 l-0.9 -2.1"></path>
           </g>
           <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180 10 10)">
-            <path d="M10 3 A7 7 0 0 1 17 10"/><path d="M17 10 l-2.3 -0.4 M17 10 l-0.9 -2.1"/>
+            <path d="M10 3 A7 7 0 0 1 17 10"></path><path d="M17 10 l-2.3 -0.4 M17 10 l-0.9 -2.1"></path>
           </g>
           <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(270 10 10)">
-            <path d="M10 3 A7 7 0 0 1 17 10"/><path d="M17 10 l-2.3 -0.4 M17 10 l-0.9 -2.1"/>
+            <path d="M10 3 A7 7 0 0 1 17 10"></path><path d="M17 10 l-2.3 -0.4 M17 10 l-0.9 -2.1"></path>
           </g>
         </svg>
       </button>
       <button class="railbtn" id="resetBtn" title="Reset view" aria-label="Reset view">
         <svg class="bicon" viewBox="0 0 20 20" fill="none" stroke="currentColor">
-          <path d="M15.6 6.3 A7 7 0 1 1 12.8 3.6" stroke-width="1.7" stroke-linecap="round"/>
-          <path d="M12.6 1.2 L12.8 3.9 L15.6 3.7" fill="none" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+          <path d="M15.6 6.3 A7 7 0 1 1 12.8 3.6" stroke-width="1.7" stroke-linecap="round"></path>
+          <path d="M12.6 1.2 L12.8 3.9 L15.6 3.7" fill="none" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"></path>
         </svg>
       </button>
       <button class="railbtn" id="xrayBtn" title="X-Ray view" aria-label="X-Ray view">
         <svg class="bicon" viewBox="0 0 20 20" fill="currentColor">
-          <rect x="5.5" y="8.7" width="9" height="2.6" rx="1.3"/>
-          <circle cx="4.3" cy="7" r="2.3"/>
-          <circle cx="4.3" cy="13" r="2.3"/>
-          <circle cx="15.7" cy="7" r="2.3"/>
-          <circle cx="15.7" cy="13" r="2.3"/>
+          <rect x="5.5" y="8.7" width="9" height="2.6" rx="1.3"></rect>
+          <circle cx="4.3" cy="7" r="2.3"></circle>
+          <circle cx="4.3" cy="13" r="2.3"></circle>
+          <circle cx="15.7" cy="7" r="2.3"></circle>
+          <circle cx="15.7" cy="13" r="2.3"></circle>
         </svg>
       </button>
     </div>
@@ -693,8 +692,18 @@ document.getElementById('resetBtn').onclick=()=>{angX=0.05;angY=0;zoom=1;vel=0;d
 /* ================= TAB SYSTEM + GLAND FUNCTION LABS ================= */
 // ---- Paste your Supabase public image URLs here (leave "" to show the live 3D model) ----
 var SUPABASE_IMAGES = {
-  pituitary:"", pineal:"", thyroid:"", parathyroid:"",
-  adrenal:"", pancreas:"", ovaries:"", testes:"", uterus:"", larynx:"", bone:"", vasopressin:""
+  pituitary:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Pitutary/file_00000000119471f8b270d3e23e186ecf.png",
+  pineal:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Pineal%20Gland/file_00000000c59471f5b80f0a50b1ee2171.png",
+  thyroid:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Thyroid%20Gland/file_00000000f9f471fdbc1ab317354b944a.png",
+  parathyroid:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Parathyroid%20Glands/file_00000000943c71fd8c7d8b81a6e4b152.png",
+  adrenal:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Adrenal%20Gland/file_000000009e9c7230a28439e6620e960e.png",
+  pancreas:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Pancreas/file_00000000e94471f89720f5b303fc8d0a.png",
+  ovaries:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Ovaries/file_00000000d4a871fda609833f799d7ab5.png",
+  testes:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Testis/file_00000000011071fd832395f5e385d2ef.png",
+  uterus:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Uterus/file_00000000c9c071f8ba72a89b6db8ec7a.png",
+  larynx:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Larynx/file_0000000034a071faa18427be6602b97a.png",
+  bone:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Haversian%20Canal/file_000000009a8c7207b48d7eb6eb48c82e.png",
+  vasopressin:"https://jdhjpmjafvdvycmklrkx.supabase.co/storage/v1/object/public/Endocrine%20Organs/Nephron/file_000000004a8071fb83772703e9d929dd.png"
 };
 // e.g. pancreas:"https://YOURPROJECT.supabase.co/storage/v1/object/public/glands/pancreas.png"
 function serializeImages(obj){
@@ -999,12 +1008,18 @@ function buildLab(id,el){
     el.innerHTML='<div class="labtitle">Try it &mdash; growth hormone</div>'+slider('g-s','Growth Hormone (GH)',0,100,50)+gaugeHTML('Body growth')+'<canvas class="figcv" id="gh-fig"></canvas><div class="labhint">Drag GH: too little in childhood &rarr; dwarfism; too much &rarr; gigantism.</div>'+
       '<div class="labtitle" style="margin-top:18px">Also released here &mdash; Vasopressin (ADH)</div>'+
       '<div class="labhint">Vasopressin (antidiuretic hormone) is made in the hypothalamus but stored and released by the pituitary. It acts on the kidney tubules, making them reabsorb more <b>water</b> back into the blood \u2014 this concentrates the urine and stops the body losing too much water. Too little ADH causes excess dilute urine (as in diabetes insipidus); more ADH means the body holds on to water.</div>'+
-      '<div class="subimg" id="vasoimgwrap"><img id="im-vaso" src="" alt="Kidney tubule" style="display:none;"><div class="subimgph" id="ph-vaso">Paste a kidney tubule / collecting duct image URL below to show it here.</div></div>'+
+      '<div class="subimg" id="vasoimgwrap"><img id="im-vaso" src="" alt="Kidney tubule" style="display:none;"><canvas class="overlay" id="vaso-cv"></canvas><div class="subimgph" id="ph-vaso">Paste a kidney tubule / collecting duct image URL below to show it here.</div></div>'+
       '<div class="urlrow" id="urlrow-vaso"><input type="text" id="url-vaso" class="urlin" placeholder="Paste kidney tubule image URL" value="" autocomplete="off" spellcheck="false"><button class="urlreset" id="urlrs-vaso" title="Remove image">Reset</button></div>'+
-      pencilRowHTML('vaso',!!(SUPABASE_IMAGES.vasopressin));
+      pencilRowHTML('vaso',!!(SUPABASE_IMAGES.vasopressin))+
+      '<div class="labtitle" style="margin-top:18px">Try it \u2014 water reabsorption</div>'+
+      slider('adh-s','Vasopressin (ADH) level',0,100,30)+
+      '<div class="labhint">Drag ADH up: more aquaporin channels open in the collecting duct wall, and more water moves out of the tubule and back into the blood.</div>';
     var g4=el.querySelector('.gauge');var up4=function(v){GHVAL=v;ACT.pituitary=v/100;setGauge(g4,v,0,100,[[0,30,'#5aa9e6','under'],[30,70,'#5fce8f','normal'],[70,100,'#e6795a','over']],'%');};
     el.querySelector('#g-s').oninput=function(e){up4(+e.target.value);};up4(50);
-    DEMO['pituitary']=function(){var fg=document.getElementById('gh-fig');if(fg)drawFigure(fg,GHVAL);};
+    var adhLvl={v:30};
+    el.querySelector('#adh-s').oninput=function(e){adhLvl.v=+e.target.value;};
+    H2O_PARTICLES=[];H2O_SPAWN_ACC=0;
+    DEMO['pituitary']=function(){var fg=document.getElementById('gh-fig');if(fg)drawFigure(fg,GHVAL);var vc=document.getElementById('vaso-cv');if(vc)drawWaterReabsorption(vc,adhLvl.v);};
     applyVasoURL(SUPABASE_IMAGES.vasopressin||'');
     wireVasoUrlField();
   } else if(id==='pineal'){
@@ -1201,6 +1216,77 @@ function drawBoneCalcium(cv,pthVal){
   if(!hasImage){
     g.fillStyle='rgba(147,163,186,.7)';g.font='10px system-ui';g.textAlign='center';
     g.fillText('Haversian system \u2014 Ca\u00b2\u207a diffusing into the vascular canals',cx,cy+outerR+16);
+    g.textAlign='left';
+  }
+}
+var H2O_PARTICLES=[],H2O_SPAWN_ACC=0;
+function drawWaterReabsorption(cv,adhVal){
+  var rect=cv.getBoundingClientRect();if(rect.width<2)return;var dpr=Math.min(2,window.devicePixelRatio||1);
+  var w=Math.round(rect.width),h=Math.round(rect.height);if(cv.width!==w*dpr||cv.height!==h*dpr){cv.width=w*dpr;cv.height=h*dpr;}
+  var g=cv.getContext('2d');g.setTransform(dpr,0,0,dpr,0,0);
+  var imgEl=document.getElementById('im-vaso');
+  var hasImage=!!(imgEl&&imgEl.style.display==='block');
+  if(!hasImage){g.fillStyle='#0f1622';g.fillRect(0,0,w,h);}
+  else{g.clearRect(0,0,w,h);}
+  var cx=w/2,cy=h*0.46;
+  var outerR=Math.min(w,h)*0.42;
+  var wallOuterR=outerR*0.78;
+  var wallInnerR=outerR*0.50;
+  var t=adhVal/100;
+  if(!hasImage){
+    var capGrad=g.createRadialGradient(cx,cy,wallOuterR,cx,cy,outerR);
+    capGrad.addColorStop(0,'#5a2a2e');capGrad.addColorStop(1,'#3a1a1e');
+    g.fillStyle=capGrad;
+    g.beginPath();g.arc(cx,cy,outerR,0,6.2832);g.fill();
+    for(var ci=0;ci<10;ci++){
+      var ca=(ci/10)*6.2832+0.3;
+      var cr=(wallOuterR+outerR)/2;
+      var vx=cx+Math.cos(ca)*cr,vy=cy+Math.sin(ca)*cr;
+      g.fillStyle='rgba(200,70,70,.55)';
+      g.beginPath();g.ellipse(vx,vy,outerR*0.07,outerR*0.035,ca,0,6.2832);g.fill();
+    }
+    var wallGrad=g.createRadialGradient(cx,cy,wallInnerR,cx,cy,wallOuterR);
+    wallGrad.addColorStop(0,'#c99a5a');wallGrad.addColorStop(1,'#a97a3e');
+    g.fillStyle=wallGrad;
+    g.beginPath();g.arc(cx,cy,wallOuterR,0,6.2832);g.fill();
+    var nPores=14;
+    for(var pi=0;pi<nPores;pi++){
+      var pa=(pi/nPores)*6.2832;
+      var pr=(wallInnerR+wallOuterR)/2;
+      var px=cx+Math.cos(pa)*pr,py=cy+Math.sin(pa)*pr;
+      var poreSize=(0.35+t*0.65)*outerR*0.045;
+      g.fillStyle='rgba(20,15,10,'+(0.3+t*0.5)+')';
+      g.beginPath();g.arc(px,py,poreSize,0,6.2832);g.fill();
+    }
+    var lumGrad=g.createRadialGradient(cx,cy,0,cx,cy,wallInnerR);
+    lumGrad.addColorStop(0,'#e8dfa0');lumGrad.addColorStop(1,'#c9bd6e');
+    g.fillStyle=lumGrad;
+    g.beginPath();g.arc(cx,cy,wallInnerR,0,6.2832);g.fill();
+    g.strokeStyle='rgba(180,160,130,.35)';g.lineWidth=0.6;
+    g.beginPath();g.arc(cx,cy,outerR,0,6.2832);g.stroke();
+  }
+  var spawnRate=0.5+t*3.8;
+  H2O_SPAWN_ACC+=spawnRate*DT;
+  while(H2O_SPAWN_ACC>=1&&H2O_PARTICLES.length<26){
+    H2O_SPAWN_ACC-=1;
+    var ang=Math.random()*6.2832;
+    var startR=wallInnerR*(0.15+Math.random()*0.55);
+    H2O_PARTICLES.push({ang:ang,r:startR,speed:(14+Math.random()*7)*(0.55+t*0.85)});
+  }
+  for(var wi=H2O_PARTICLES.length-1;wi>=0;wi--){
+    var p=H2O_PARTICLES[wi];
+    p.r+=p.speed*DT;
+    if(p.r>=outerR*0.92){H2O_PARTICLES.splice(wi,1);continue;}
+    var wx=cx+Math.cos(p.ang)*p.r,wy=cy+Math.sin(p.ang)*p.r;
+    var dg=g.createRadialGradient(wx-0.8,wy-0.8,0.2,wx,wy,2.4);
+    dg.addColorStop(0,'#cdeeff');dg.addColorStop(1,'#4aa8e0');
+    g.fillStyle=dg;
+    g.beginPath();g.arc(wx,wy,hasImage?2.6:2.1,0,6.2832);g.fill();
+    if(hasImage){g.strokeStyle='rgba(10,40,70,.4)';g.lineWidth=0.5;g.beginPath();g.arc(wx,wy,2.6,0,6.2832);g.stroke();}
+  }
+  if(!hasImage){
+    g.fillStyle='rgba(147,163,186,.7)';g.font='10px system-ui';g.textAlign='center';
+    g.fillText('collecting duct \u2014 H\u2082O reabsorbed into blood',cx,cy+outerR+16);
     g.textAlign='left';
   }
 }
@@ -1796,6 +1882,4 @@ loadSavedImages();
 var exportBtnEl=document.getElementById('exportBtn');
 if(exportBtnEl) exportBtnEl.onclick=exportHTML;
 buildList();renderTabbar();activateTab('home');tick();
-</script>
-</body>
-</html>
+</script></body></html>
